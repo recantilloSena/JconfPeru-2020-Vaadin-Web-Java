@@ -1,0 +1,13 @@
+theming-view,
+#theming-view {
+  display: block;
+  padding: 4em;
+}
+
+
+.my-button {
+  background-color: var(--lumo-primary-color);
+  --lumo-border-radius: calc(var(--lumo-size-m) / 3);
+  --lumo-font-family: Corbel;
+  --lumo-primary-text-color: rgb(33, 119, 24);
+}
